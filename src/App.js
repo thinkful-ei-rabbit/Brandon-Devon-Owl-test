@@ -3,6 +3,7 @@ import React from 'react';
 function App() {
   return (
     <div>
+      {/* build sidebar */}
       <div className="side-bar">
         <div className='side-bar-tools'>
           <button>Chat</button>
@@ -10,6 +11,12 @@ function App() {
           <button>Settings</button>
           <button>Tools</button>
           <button>FAQ</button>
+        </div>
+        <div className='side-bar-chat'>
+          <div className='chat-messages'>
+            <span>Time</span>
+            <div className='chat-message'>name said</div>
+          </div>
         </div>
         <div className='side-bar-partcipants'>
           <div className='side-bar-participant'>
@@ -21,6 +28,8 @@ function App() {
           </div>
         </div>
       </div>
+    {/* Build stage */}
+
     </div>
   );
 }
